@@ -1,3 +1,4 @@
+import Carousel from 'react-bootstrap/Carousel'
 export const Header = (props) => {
   return (
     <header id='header'>
