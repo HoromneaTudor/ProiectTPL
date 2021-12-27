@@ -1,28 +1,42 @@
-import Carousel from 'react-bootstrap/Carousel'
+import Carousel from "react-multi-carousel";
+import "react-multi-carousel/lib/styles.css";
+import { FirstSlideCarousel } from "./firstSlideCarousel";
+import { SecondSlideCarousel } from "./secondSlideCarousel";
+import { ThirdSlideCarousel } from "./thirdSlideCarousel";
+const responsive = {
+  desktop: {
+    breakpoint: { max: 3000, min: 1024 },
+    items: 1,
+    slidesToSlide: 1,
+  },
+  tablet: {
+    breakpoint: { max: 1999, min: 576 },
+    items: 1,
+    slidesToSlide: 1,
+  },
+  mobile: {
+    breakpoint: { max: 575, min: 0 },
+    items: 1,
+    slidesToSlide: 1,
+  },
+};
+
 export const Header = (props) => {
   return (
-    <header id='header'>
-      <div className='intro'>
-        <div className='overlay'>
-          <div className='container'>
-            <div className='row'>
-              <div className='col-md-8 col-md-offset-2 intro-text'>
-                <h1>
-                  {props.data ? props.data.title : 'Loading'}
-                  <span></span>
-                </h1>
-                <p>{props.data ? props.data.paragraph : 'Loading'}</p>
-                <a
-                  href='#features'
-                  className='btn btn-custom btn-lg page-scroll'
-                >
-                  Learn More
-                </a>{' '}
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </header>
-  )
-}
+    <Carousel
+      responsive={responsive}
+      infinite
+      autoPlay
+      autoPlaySpeed={5000}
+      slidesToSlide={2}
+      customTransition="transform 1000ms ease-in-out"
+      transitionDuration={1000}
+      arrows={true}
+      itemClass="react-carousel-item "
+    >
+      <FirstSlideCarousel {...props}></FirstSlideCarousel>
+      <SecondSlideCarousel {...props}></SecondSlideCarousel>
+      <ThirdSlideCarousel {...props}></ThirdSlideCarousel>
+    </Carousel>
+  );
+};

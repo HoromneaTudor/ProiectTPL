@@ -104,7 +104,7 @@ hr {
   bottom: -1px;
   width: 0;
   height: 2px;
-  background: linear-gradient(to right, #00ac2b  0% ,#ffffff 100%);
+  background: linear-gradient(to right, #00ac2b 0%, #ffffff 100%);
   content: "";
   transition: width 0.2s;
 }
@@ -125,7 +125,7 @@ hr {
   bottom: -1px !important;
   width: 100% !important;
   height: 2px !important;
-  background: linear-gradient(to right, #00ac2b  0% ,#ffffff 100%) !important;
+  background: linear-gradient(to right, #00ac2b 0%, #ffffff 100%) !important;
   content: "" !important;
   transition: width 0.2s !important;
 }
@@ -204,6 +204,7 @@ a:focus,
   outline-offset: none;
 }
 /* Header Section */
+
 .intro {
   display: table;
   width: 100%;
