@@ -21,140 +21,78 @@
   "Gallery": [
     {
       "title": "Project Title",
-      "largeImage": "img/portfolio/01-large.jpg",
-      "smallImage": "img/portfolio/01-small.jpg"
+      "largeImage": "img/img1.jpg",
+      "smallImage": "img/img1.jpg"
     },
     {
       "title": "Project Title",
-      "largeImage": "img/portfolio/02-large.jpg",
-      "smallImage": "img/portfolio/02-small.jpg"
+      "largeImage": "img/img2.jpg",
+      "smallImage": "img/img2.jpg"
     },
     {
       "title": "Project Title",
-      "largeImage": "img/portfolio/03-large.jpg",
-      "smallImage": "img/portfolio/03-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/04-large.jpg",
-      "smallImage": "img/portfolio/04-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/05-large.jpg",
-      "smallImage": "img/portfolio/05-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/06-large.jpg",
-      "smallImage": "img/portfolio/06-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/07-large.jpg",
-      "smallImage": "img/portfolio/07-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/08-large.jpg",
-      "smallImage": "img/portfolio/08-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/09-large.jpg",
-      "smallImage": "img/portfolio/09-small.jpg"
+      "largeImage": "img/img3.jpg",
+      "smallImage": "img/img3.jpg"
     }
   ],
   "Services": [
     {
       "icon": "fa fa-wordpress",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "name": "Linia 1",
+      "text": "Cinema  - Orizont - IRIC - Carrefour - Bazar - Sala Sporturilor - Colegiul „Petru Muşat” - Centru - Bancă - Policlinică - Spitalul Județean - Obcini Flori - Mobilă - Curcubeu - Nordic - Catedrală - Policlinică - Bancă - Centru - Colegiul „Petru Muşat” - Sala Sporturilor - Bazar - Carrefour - Orizont  - Cinema."
     },
     {
       "icon": "fa fa-cart-arrow-down",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "name": "Linia 2",
+      "text": "Gara Burdujeni - Comlemn - Cantină - Moldova - Orizont - IRIC - Carrefour - Iulius Mall - Bazar - Sala Sporturilor - Colegiul „Petru Muşat” - Centru - Bancă - Policlinică - Spitalul Judeţean - Metro - Corduș - Școala nr. 9 - Obcini Flori - Mobilă - Curcubeu - Nordic - Catedrală - Policlinică - Bancă - Centru - Colegiul „Petru Muşat” - Sala Sporturilor - Iulius Mall - Bazar - Carrefour - Orizont - Moldova - Cantină - Ramiro - Cartier ANL - Gara Burdujeni."
     },
     {
       "icon": "fa fa-cloud-download",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "name": "Linia 3",
+      "text": "Gara Burdujeni - Comlemn - Cantină - Moldova - Orizont - IRIC - Carrefour - Bazar - Sala Sporturilor - Colegiul „Petru Muşat” - Centru - Bancă - Policlinică - Spitalul Judeţean - Obcini Flori - Pasaj CFR Vest - Centură - Rulmentul - Jumbo - Bermas - Gara Suceava Vest - Mobilă - Curcubeu - Nordic - Catedrală - Policlinică - Bancă - Centru - Colegiul „Petru Muşat” - Sala Sporturilor - Bazar - Carrefour - Orizont - Moldova - Cantina - Ramiro - Cartier ANL - Gara Burdujeni."
     },
     {
       "icon": "fa fa-language",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "name": "Linia 4",
+      "text": "Cinema - Depozit - Torino - Piaţă - Orizont - IRIC - Carrefour - Iulius Mall - Bazar - Sala Sporturilor - Colegiul „Petru Muşat” - Centru - Bancă - Policlinică - Catedrală - Curcubeu - Mobilă - Obcini Flori - Metro - Corduş - Bloc IRE - Alimentara - Şcoala „Ion Creangă” - Obcini Flori - Mobilă - Curcubeu - Confecţia - Universitate - Policlinică - Bancă - Centru - Colegiul „Petru Muşat” - Sala Sporturilor - Iulius Mall - Bazar - Carrefour - Orizont - Piaţă - Torino - Depozit - Spital Neuro - Cinema."
     },
     {
       "icon": "fa fa-plane",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "name": "Linia 5",
+      "text": "Gara Iţcani - Pasarelă - Străduinţa - Betty Ice - Petrom - TPL - Sticlă - Colegiul „Petru Muşat” - Centru - Bancă - Policlinică - Spitalul Judeţean - Metro - Corduş -  Bloc IRE - Alimentara - Şcoala nr.9 - Obcini Flori - Mobilă - Curcubeu - Nordic - Catedrală - Policlinică - Bancă - Centru - Colegiul „Petru Muşat - Sticlă - TPL - Petrom - Selgros - Străduinţa - Pasarelă - Gara Iţcani"
     },
     {
       "icon": "fa fa-pie-chart",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-    }
-  ],
-  "Testimonials": [
-    {
-      "img": "img/testimonials/01.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
-    },
-    {
-      "img": "img/testimonials/02.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
-    },
-    {
-      "img": "img/testimonials/03.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
-    },
-    {
-      "img": "img/testimonials/04.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
-    },
-    {
-      "img": "img/testimonials/05.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
-    },
-    {
-      "img": "img/testimonials/06.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
+      "name": "Linia 21",
+      "text": "Burdujeni Sat - Şcoala nr. 6 - Cinema - Orizont - IRIC - Carrefour - Bazar - Sala Sporturilor - Colegiul „Petru Muşat” - Centru - Bancă - Policlinică - Catedrală - Curcubeu - Mobilă - Pasaj CFR Vest - Centură - Rulmentul - Jumbo - Bermas - Gara Suceava Vest - Mobilă - Curcubeu - Nordic - Catedrală - Policlinică - Bancă - Centru - Colegiul „Petru Muşat” - Sala Sporturilor - Bazar - Carrefour - Orizont - Cinema - Şcoala nr. 6 - Burdujeni Sat."
     }
   ],
   "Team": [
     {
-      "img": "img/team/01.jpg",
-      "name": "John Doe",
-      "job": "Director"
+      "img": "img/team/Stefan.jpg",
+      "name": "Șovea Ștefan",
+      "job": "Team Leader"
     },
     {
-      "img": "img/team/02.jpg",
-      "name": "Mike Doe",
-      "job": "Senior Designer"
+      "img": "img/team/Ventu.jpg",
+      "name": "Ventuneac Andrei Tudor",
+      "job": "Front-End Developer"
     },
     {
-      "img": "img/team/03.jpg",
-      "name": "Jane Doe",
-      "job": "Senior Designer"
+      "img": "img/team/Rickroll.jpg",
+      "name": "Tanasă Alin Petru",
+      "job": "Back-End Developer"
     },
     {
-      "img": "img/team/04.jpg",
-      "name": "Karen Doe",
-      "job": "Project Manager"
+      "img": "img/team/Tudor.jpg",
+      "name": "Horomnea Tudor",
+      "job": "Back-End Developer"
     }
   ],
   "Contact": {
-    "address": "4321 California St, San Francisco, CA 12345 ",
-    "phone": "+1 123 456 1234",
-    "email": "info@company.com",
+    "address": "SC TRANSPORT PUBLIC LOCAL SA Str. Traian Vuia nr. 5 A, Suceava, 720 021, ROMANIA",
+    "phone": "0330 401 442",
+    "email": "contact@tpl-usv.ro",
     "facebook": "fb.com",
     "twitter": "twitter.com",
     "youtube": "youtube.com"
@@ -162,23 +100,23 @@
   "Features": [
     {
       "icon": "fa fa-comments-o",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "title": "Bilet Normal",
+      "text": "2,50 lei"
     },
     {
       "icon": "fa fa-bullhorn",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "title": "Abonament lunal",
+      "text": "75 lei"
     },
     {
       "icon": "fa fa-group",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "title": "Abonament elev",
+      "text": "Gratuit"
     },
     {
       "icon": "fa fa-magic",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "title": "Abonament pensionar",
+      "text": "37,50 lei"
     }
   ]
 }
