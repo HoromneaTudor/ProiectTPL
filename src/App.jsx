@@ -6,12 +6,13 @@ import { About } from "./components/about";
 import { Services } from "./components/services";
 import { Gallery } from "./components/gallery";
 import { Team } from "./components/Team";
-import { Contact } from "./components/contact";
-import {Register} from "./components/register";
+import { Footer } from "./components/footer";
+import { Register } from "./components/register";
 import JsonData from "./data/data.json";
 import SmoothScroll from "smooth-scroll";
 
 import "./App.css";
+import { Contact } from "./components/contact";
 
 export const scroll = new SmoothScroll('a[href*="#"]', {
   speed: 1000,
@@ -24,20 +25,81 @@ const App = () => {
     setLandingPageData(JsonData);
   }, []);
 
-  return (
-    <div>
-      <Navigation />
-      <Header data={landingPageData.Header} />
-      <Features data={landingPageData.Features} />
+  console.log(sessionStorage.getItem("conectareStare"));
+  if (sessionStorage.getItem("conectareStare") == "false") {
+    return (
+      <div>
+        <Navigation />
+        <Header data={landingPageData.Header} />
+        <Features data={landingPageData.Features} />
 
-      <Services data={landingPageData.Services} />
+        <Services data={landingPageData.Services} />
 
-      <Contact data={landingPageData.Contact} />
-      {/*
+        <Footer />
+        {/*
         <Register data={landingPageData.Register}/>
       */}
-    </div>
-  );
+      </div>
+    );
+  } else if (sessionStorage.getItem("conectareStare") == "Conectare") {
+    return (
+      <div>
+        <Navigation />
+        {/* <Header data={landingPageData.Header} />
+        <Features data={landingPageData.Features} />
+
+        <Services data={landingPageData.Services} />
+
+        <Contact data={landingPageData.Contact} /> */}
+
+        <Register data={landingPageData.Register} />
+      </div>
+    );
+  } else if (sessionStorage.getItem("conectareStare") == "Galerie") {
+    return (
+      <div>
+        <Navigation />
+        {/* <Header data={landingPageData.Header} />
+        <Features data={landingPageData.Features} />
+
+        <Services data={landingPageData.Services} />
+
+        <Contact data={landingPageData.Contact} /> */}
+
+        <Gallery data={landingPageData.Gallery} />
+        <Footer />
+      </div>
+    );
+  } else if (sessionStorage.getItem("conectareStare") == "Contact") {
+    return (
+      <div>
+        <Navigation />
+        {/* <Header data={landingPageData.Header} />
+        <Features data={landingPageData.Features} />
+
+        <Services data={landingPageData.Services} />
+
+        <Contact data={landingPageData.Contact} /> */}
+        <Contact data={landingPageData.Contact} />
+        <Footer />
+      </div>
+    );
+  } else {
+    return (
+      <div>
+        <Navigation />
+        <Header data={landingPageData.Header} />
+        <Features data={landingPageData.Features} />
+
+        <Services data={landingPageData.Services} />
+
+        <Footer />
+        {/*
+        <Register data={landingPageData.Register}/>
+      */}
+      </div>
+    );
+  }
 };
 
 export default App;

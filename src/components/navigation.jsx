@@ -1,3 +1,6 @@
+import { BrowserRouter, Route, Switch } from "react-router-dom";
+import { Register } from "./register";
+
 export const Navigation = (props) => {
   return (
     <nav id="menu" className="navbar navbar-default navbar-fixed-top">
@@ -16,7 +19,7 @@ export const Navigation = (props) => {
             <span className="icon-bar"></span>{" "}
           </button>
           <a className="navbar-brand page-scroll" href="#page-top">
-            Proiect TPL
+            Transport Public Suceava
           </a>{" "}
         </div>
 
@@ -25,34 +28,69 @@ export const Navigation = (props) => {
           id="bs-example-navbar-collapse-1"
         >
           <ul className="nav navbar-nav navbar-right">
-            <li>
-              <a href="#features" className="page-scroll">
-                Prețuri
+            <li
+              onClick={() => {
+                sessionStorage.setItem("conectareStare", "false");
+              }}
+            >
+              <a href="/features" className="page-scroll">
+                Acasă
               </a>
             </li>
-            <li>
-              <a href="#about" className="page-scroll">
+            <li
+              onClick={() => {
+                sessionStorage.setItem("conectareStare", "false");
+              }}
+            >
+              <a href="/about" className="page-scroll">
                 Despre
               </a>
             </li>
-            <li>
-              <a href="#services" className="page-scroll">
+            <li
+              onClick={() => {
+                sessionStorage.setItem("conectareStare", "false");
+              }}
+            >
+              <a href="/services" className="page-scroll">
                 Rute
               </a>
             </li>
-            <li>
-              <a href="#portfolio" className="page-scroll">
+            <li
+              onClick={() => {
+                sessionStorage.setItem("conectareStare", "Galerie");
+              }}
+            >
+              <a href="/portfolio" className="page-scroll">
                 Galerie
               </a>
             </li>
-            <li>
-              <a href="#team" className="page-scroll">
+            <li
+              onClick={() => {
+                sessionStorage.setItem("conectareStare", "false");
+              }}
+            >
+              <a href="/team" className="page-scroll">
                 COVID-19
               </a>
             </li>
-            <li>
-              <a href="#contact" className="page-scroll">
+
+            <li
+              onClick={() => {
+                sessionStorage.setItem("conectareStare", "Contact");
+              }}
+            >
+              <a href="/contact" className="page-scroll">
                 Contact
+              </a>
+            </li>
+
+            <li
+              onClick={() => {
+                sessionStorage.setItem("conectareStare", "Conectare");
+              }}
+            >
+              <a href="/register" className="page-scroll">
+                Conectare
               </a>
             </li>
           </ul>

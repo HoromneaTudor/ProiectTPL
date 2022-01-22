@@ -88,7 +88,6 @@ hr {
   font-size: 24px;
   font-weight: 700;
   color: rgb(255, 255, 255);
-  text-transform: uppercase;
 }
 #menu.navbar-default .navbar-nav > li > a {
   font-family: "Lato", sans-serif;
@@ -576,6 +575,13 @@ header .intro-text {
   background: linear-gradient(to right, #048100 0%, #048100 100%);
   color: rgba(255, 255, 255, 0.75);
 }
+
+#contact2 {
+  padding: 100px 0 60px;
+  background: linear-gradient(to right, #f6f6f6 0%, #f6f6f6 100%);
+  color: rgba(0, 0, 0, 0.75);
+}
+
 #contact .section-title {
   margin-bottom: 40px;
 }
@@ -620,6 +626,53 @@ header .intro-text {
   color: #1f386e;
   background: #fff;
 }
+
+#contact2 .section-title {
+  margin-bottom: 40px;
+}
+#contact2 .section-title p {
+  font-size: 16px;
+}
+#contact2 h2 {
+  color: rgb(0, 0, 0);
+  margin-top: 10px;
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+}
+#contact2 .section-title h2::after {
+  position: absolute;
+  content: "";
+  background: rgba(255, 255, 255, 0.3);
+  height: 4px;
+  width: 60px;
+  bottom: 0;
+  left: 30px;
+}
+#contact2 h3 {
+  color: rgb(0, 0, 0);
+  margin-top: 80px;
+  margin-bottom: 25px;
+  padding-bottom: 20px;
+  font-weight: 400;
+}
+#contact2 form {
+  padding-top: 20px;
+}
+#contact2 .text-danger {
+  color: #cc0033;
+  text-align: left;
+}
+#contact2 .btn-custom {
+  margin: 30px 0;
+  background: transparent;
+  border: 2px solid rgb(0, 0, 0);
+  color: black;
+}
+#contact2 .btn-custom:hover {
+  color: #1f386e;
+  background: rgb(0, 0, 0);
+}
+
 label {
   font-size: 12px;
   font-weight: 400;
@@ -649,6 +702,31 @@ label {
   -webkit-box-shadow: transparent;
   box-shadow: transparent;
 }
+
+#contact2 .form-control {
+  display: block;
+  width: 100%;
+  padding: 6px 12px;
+  font-size: 16px;
+  line-height: 1.42857143;
+  color: #444;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ddd;
+  border-radius: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  -webkit-transition: none;
+  -o-transition: none;
+  transition: none;
+}
+#contact2 .form-control:focus {
+  border-color: #999;
+  outline: 0;
+  -webkit-box-shadow: transparent;
+  box-shadow: transparent;
+}
+
 .form-control::-webkit-input-placeholder {
   color: #777;
 }
@@ -688,11 +766,47 @@ label {
   height: 48px;
   padding: 12px 0;
   border: 2px solid #fff;
-  color: #fff;
+  color: rgb(0, 0, 0);
   border-radius: 50%;
   transition: all 0.3s;
 }
 #contact .social i.fa:hover {
+  color: #608dfd;
+  background: #fff;
+}
+
+#contact2 .contact-item {
+  margin: 20px 0;
+}
+#contact2 .contact-item span {
+  color: rgb(0, 0, 0);
+  margin-bottom: 10px;
+  display: block;
+}
+#contact2 .contact-item i.fa {
+  margin-right: 10px;
+}
+#contact2 .social {
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
+  padding-top: 50px;
+  margin-top: 50px;
+  text-align: center;
+}
+#contact2 .social ul li {
+  display: inline-block;
+  margin: 0 20px;
+}
+#contact2 .social i.fa {
+  font-size: 22px;
+  width: 48px;
+  height: 48px;
+  padding: 12px 0;
+  border: 2px solid rgb(0, 0, 0);
+  color: rgb(0, 0, 0);
+  border-radius: 50%;
+  transition: all 0.3s;
+}
+#contact2 .social i.fa:hover {
   color: #608dfd;
   background: #fff;
 }

@@ -20,46 +20,70 @@
   },
   "Gallery": [
     {
-      "title": "Project Title",
+      "title": "TPL Suceava",
       "largeImage": "img/img1.jpg",
       "smallImage": "img/img1.jpg"
     },
     {
-      "title": "Project Title",
+      "title": "TPL Suceava",
       "largeImage": "img/img2.jpg",
       "smallImage": "img/img2.jpg"
     },
     {
-      "title": "Project Title",
+      "title": "TPL Suceava",
       "largeImage": "img/img3.jpg",
       "smallImage": "img/img3.jpg"
+    },
+    {
+      "title": "TPL Suceava",
+      "largeImage": "img/tpl1.jpg",
+      "smallImage": "img/tpl1.jpg"
+    }
+    ,
+    {
+      "title": "TPL Suceava",
+      "largeImage": "img/tpl2.jpg",
+      "smallImage": "img/tpl2.jpg"
+    }
+    ,
+    {
+      "title": "TPL Suceava",
+      "largeImage": "img/tpl3.jpg",
+      "smallImage": "img/tpl3.jpg"
+    }
+    ,
+    {
+      "title": "TPL Suceava",
+      "largeImage": "img/tpl4.jpg",
+      "smallImage": "img/tpl4.jpg"
+    }
+    ,
+    {
+      "title": "TPL Suceava",
+      "largeImage": "img/tpl5.jpg",
+      "smallImage": "img/tpl5.jpg"
     }
   ],
   "Services": [
      {
       "icon": "fa fa-wordpress",
-      "name": "Lorem Ipsum Lorem Ipsum",
-      "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. "
+      "name": "MODIFICARE TRASEU PENTRU LINIA 30",
+      "text": "Începând cu 1 Ianuarie 2018 Linia 30 circulă la dus și la întors pe străzile Petru Rareș și Mihai Viteazul, cu stații la Piața mare, Autogară și CN 'Petru Rareș'. Prin urmare Linia 30 nu va mai trece prin stațiile 'Bancă' și 'Policlinică'. "
     },
      {
       "icon": "fa fa-wordpress",
-     "name": "Lorem Ipsum Lorem Ipsum",
-      "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. "
+     "name": "ABONAMENTE PENTRU O ZI",
+      "text": "Abonament pentru o zi valabil pe toate liniile la preţul de 6 lei. Abonament nenominal lunar la preţul de 115 lei. *Abonamentele se distribuie în punctele de vânzare TPL din stații "
     },
     {
       "icon": "fa fa-wordpress",
-      "name": "Lorem Ipsum Lorem Ipsum",
-      "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. "
+      "name": "LINIA 1- LINIE DIRECTĂ BURDUJENI - GEORGE ENESCU",
+      "text": "Începând din luna Ianuarie circulă  LINIA 1  cu plecare de la Cinema Burdujeni spre Spital, George Enescu și Mărășești, având următorul traseu: Cinema - Orizont - Carrefour - Bazar - Sala Sporturilor - Grupul Școlar - Centru - Bancă - Policlinică - Spital - Obcini (Flori) - Mobilă - Curcubeu - Nordic - Catedrală - Policlinică - Bancă - Centru - Grupul Școlar - Sala Sporturilor - Bazar - Carrefour - Orizont - Cinema "
     },
      {
       "icon": "fa fa-wordpress",
-      "name": "Lorem Ipsum Lorem Ipsum",
-      "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. "
-    },
-    {
-      "icon": "fa fa-wordpress",
-     "name": "Lorem Ipsum Lorem Ipsum",
-      "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. "
+      "name": "Program eliberare abonamente 24 Ianuarie",
+      "text": "Luni 24 Ianuarie punctul de eliberare a abonamentelor din stația Centru va fi deschis între orele 7.00 - 15.00. "
     }
   ],
   "Team": [

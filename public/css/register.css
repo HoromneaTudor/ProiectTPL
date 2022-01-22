@@ -2,15 +2,8 @@ html,
 body {
   width: 100%;
   height: 100%;
-  background: -webkit-linear-gradient(
-    25deg,
-    #ffbe0b,
-    #fb5607,
-    #ff006e,
-    #8338ec,
-    #3a86ff
-  );
-
+  background: url(../img/img6.jpg) center center no-repeat;
+  background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -23,16 +16,26 @@ body {
   border: none;
   outline: none;
 }
+
+#content_main {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  height: 100%;
+}
+
 #content_container {
-  width: 30%;
-  height: 70%;
+  width: 35%;
+  height: 60%;
+
+  align-self: center;
 }
 
 #form_container {
   width: 100%;
   height: 100%;
 
-  background-color: #370617;
+  background-color: #414b4c;
   box-shadow: 0 0 50px -20px #000;
   border-radius: 2%;
 
@@ -41,46 +44,30 @@ body {
 
 #form_header_container {
   width: 100%;
-  height: 5%;
+  height: 10%;
 
   display: flex;
   justify-content: center;
   align-items: center;
   float: left;
 
-  padding: 20px;
+  padding: 60px;
   padding-bottom: 30px;
-  padding-top: 30px;
+  padding-top: 60px;
 
   border-bottom: 1px solid transparent;
-  border-image: -webkit-linear-gradient(
-      25deg,
-      #ffbe0b,
-      #fb5607,
-      #ff006e,
-      #8338ec,
-      #3a86ff
-    )
-    20;
-  background: #000;
+
+  background: #048100;
 }
 
 #form_header {
   display: inline-block;
-  font-size: 15px;
+  font-size: 17px;
   font-family: Bowlby One SC;
   font-weight: 900;
   text-transform: uppercase;
   letter-spacing: 1px;
-
-  background: -webkit-linear-gradient(
-    25deg,
-    #ffbe0b,
-    #fb5607,
-    #ff006e,
-    #8338ec,
-    #3a86ff
-  );
+  background-color: white;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -112,24 +99,15 @@ input {
   padding-left: 10px;
   margin-bottom: 20px;
 
-  background: #000;
+  background: rgb(255, 255, 255);
   font-family: Montserrat;
   font-weight: 500;
-  color: #fff;
+  color: rgb(0, 0, 0);
   font-size: 12px;
 
   border-bottom: 2px solid transparent;
   border-top-left-radius: 2%;
   border-top-right-radius: 2%;
-  border-image: -webkit-linear-gradient(
-      25deg,
-      #ffbe0b,
-      #fb5607,
-      #ff006e,
-      #8338ec,
-      #3a86ff
-    )
-    1;
 }
 
 #button_container {
@@ -138,10 +116,10 @@ input {
 
   background-image: linear-gradient(
     80deg,
-    #ffbe0b,
-    #fb5607 50%,
-    #ff006e 50%,
-    #8338ec
+    #048100,
+    #048100 50%,
+    #3757a7 50%,
+    #3757a7
   );
   color: #fff;
 
