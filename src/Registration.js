@@ -11,6 +11,7 @@ import {
   ref,
   set,
   update,
+  onValue,
   child,
 } from "../node_modules/firebase/database";
 import { findAllInRenderedTree } from "react-dom/cjs/react-dom-test-utils.development";
@@ -101,12 +102,21 @@ export function register(
 
       var reff = ref(firebaseDataBase, "users/" + user.uid);
 
+      var subscription = {
+        name: "none",
+        days: 0,
+        price: 0,
+      };
+
       var user_data = {
         email: email,
         last_name: last_name,
         first_name: first_name,
         card_series: card_series,
         CNP: CNP,
+        subscription: subscription,
+        subscription_lenghth: 0,
+        subscription_starting_date: 0,
         last_login: Date.now(),
       };
 
@@ -157,6 +167,97 @@ export function login(email, password) {
       alert(error_message + "and has finished with error code: " + error_code);
     }
   );
+}
+
+export function createSubscriptions() {
+  var reff = ref(firebaseDataBase, "subscriptions");
+
+  var subsctiptions = {
+    none: {
+      name: "none",
+      days: 0,
+      price: 0,
+    },
+    monthlySubscribe: { name: "monthlySubscribe", days: 30, price: 75 },
+    fifteenDaySubscription: {
+      name: "fifteenDaySubscription",
+      days: 15,
+      price: 46,
+    },
+    sevenDaySubscription: {
+      name: "sevenDaySubscription",
+      days: 7,
+      price: 27,
+    },
+    oneDaySubscription: {
+      name: "oneDaySubscription",
+      days: 1,
+      price: 6,
+    },
+    subscriptionWithoutName: {
+      name: "subscriptionWithoutName",
+      days: 30,
+      price: 115,
+    },
+    studentSubscription: {
+      name: "studentSubscription",
+      days: 30,
+      price: 37.5,
+    },
+    retiredSubscription: {
+      name: "retiredSubscription",
+      days: 30,
+      price: 37.5,
+    },
+  };
+
+  set(reff, subsctiptions);
+
+  alert("Subscriptions created");
+}
+
+export function getAllDataFromUser() {
+  var returnVal;
+  const ceva = ref(firebaseDataBase, "users/" + authentication.currentUser.uid);
+  onValue(ceva, (snapshot) => {
+    returnVal = snapshot.val();
+    alert(snapshot.val().email + snapshot.val().CNP); //we have access to everything that is on the database
+  });
+}
+
+export function updateSubscription(subscriptionType) {
+  var user = authentication.currentUser;
+
+  var reff = ref(firebaseDataBase, "users/" + user.uid);
+
+  var user_data = {
+    subscription: getSubscription(subscriptionType),
+    subscription_lenghth: getSubscriptionDuration(subscriptionType),
+    subscription_starting_date: Date.now(),
+  };
+
+  update(reff, user_data);
+
+  alert("subscription updated!");
+}
+
+function getSubscriptionDuration(subscriptionType) {
+  var returnVal;
+  const ceva = ref(firebaseDataBase, "subscriptions/" + subscriptionType);
+  onValue(ceva, (snapshot) => {
+    returnVal = snapshot.val().days;
+  });
+  return returnVal;
+}
+
+//will need to be improved
+async function getSubscription(subscriptionType) {
+  var returnVal;
+  const ceva = ref(firebaseDataBase, "subscriptions");
+  await onValue(ceva, (snapshot) => {
+    returnVal = snapshot.val()[subscriptionType];
+  });
+  return returnVal[subscriptionType];
 }
 
 function validate_email(email) {

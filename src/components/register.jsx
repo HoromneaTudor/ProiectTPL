@@ -1,4 +1,4 @@
-import {register,login} from '../Registration.js'
+import {register,login,getAllDataFromUser,createSubscriptions,updateSubscription} from '../Registration.js'
 
 export const Register = (prop)=>{
       return (
@@ -31,6 +31,17 @@ export const Register = (prop)=>{
                     <button onClick={()=>login(document.getElementById("email").value,document.getElementById("password").value)}>Login</button>
                     <button onClick={()=>{register(document.getElementById("last_name").value, document.getElementById("first_name").value, document.getElementById("email").value,document.getElementById("password").value,document.getElementById("confirm_password").value,document.getElementById("CNP").value,document.getElementById("card_series").value);}}>Register</button>
                   </div>
+                  {/*
+                  <div>
+                    <button onClick={()=>{getAllDataFromUser();}}>Data</button>
+                  </div>
+                  <div>
+                    <button onClick={()=>{createSubscriptions();}}>Create Subscriptions</button>
+                  </div>
+                  <div>
+                    <button onClick={()=>{updateSubscription("fifteenDaySubscription");}}>Updat subscription</button>
+                  </div>
+                  */}
                 </div>
               </div>
             </div>
