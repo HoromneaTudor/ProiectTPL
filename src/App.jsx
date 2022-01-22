@@ -29,10 +29,9 @@ const App = () => {
       <Navigation />
       <Header data={landingPageData.Header} />
       <Features data={landingPageData.Features} />
-      <About data={landingPageData.About} />
+
       <Services data={landingPageData.Services} />
-      <Gallery data={landingPageData.Gallery} />
-      <Team data={landingPageData.Team} />
+
       <Contact data={landingPageData.Contact} />
       {/*
         <Register data={landingPageData.Register}/>
@@ -42,3 +41,7 @@ const App = () => {
 };
 
 export default App;
+
+//<About data={landingPageData.About} />
+//<Gallery data={landingPageData.Gallery} />
+// <Team data={landingPageData.Team} />

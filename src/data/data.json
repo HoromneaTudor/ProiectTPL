@@ -36,35 +36,30 @@
     }
   ],
   "Services": [
+     {
+      "icon": "fa fa-wordpress",
+      "name": "Lorem Ipsum Lorem Ipsum",
+      "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. "
+    },
+     {
+      "icon": "fa fa-wordpress",
+     "name": "Lorem Ipsum Lorem Ipsum",
+      "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. "
+    },
     {
       "icon": "fa fa-wordpress",
-      "name": "Linia 1",
-      "text": "Cinema  - Orizont - IRIC - Carrefour - Bazar - Sala Sporturilor - Colegiul „Petru Muşat” - Centru - Bancă - Policlinică - Spitalul Județean - Obcini Flori - Mobilă - Curcubeu - Nordic - Catedrală - Policlinică - Bancă - Centru - Colegiul „Petru Muşat” - Sala Sporturilor - Bazar - Carrefour - Orizont  - Cinema."
+      "name": "Lorem Ipsum Lorem Ipsum",
+      "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. "
+    },
+     {
+      "icon": "fa fa-wordpress",
+      "name": "Lorem Ipsum Lorem Ipsum",
+      "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. "
     },
     {
-      "icon": "fa fa-cart-arrow-down",
-      "name": "Linia 2",
-      "text": "Gara Burdujeni - Comlemn - Cantină - Moldova - Orizont - IRIC - Carrefour - Iulius Mall - Bazar - Sala Sporturilor - Colegiul „Petru Muşat” - Centru - Bancă - Policlinică - Spitalul Judeţean - Metro - Corduș - Școala nr. 9 - Obcini Flori - Mobilă - Curcubeu - Nordic - Catedrală - Policlinică - Bancă - Centru - Colegiul „Petru Muşat” - Sala Sporturilor - Iulius Mall - Bazar - Carrefour - Orizont - Moldova - Cantină - Ramiro - Cartier ANL - Gara Burdujeni."
-    },
-    {
-      "icon": "fa fa-cloud-download",
-      "name": "Linia 3",
-      "text": "Gara Burdujeni - Comlemn - Cantină - Moldova - Orizont - IRIC - Carrefour - Bazar - Sala Sporturilor - Colegiul „Petru Muşat” - Centru - Bancă - Policlinică - Spitalul Judeţean - Obcini Flori - Pasaj CFR Vest - Centură - Rulmentul - Jumbo - Bermas - Gara Suceava Vest - Mobilă - Curcubeu - Nordic - Catedrală - Policlinică - Bancă - Centru - Colegiul „Petru Muşat” - Sala Sporturilor - Bazar - Carrefour - Orizont - Moldova - Cantina - Ramiro - Cartier ANL - Gara Burdujeni."
-    },
-    {
-      "icon": "fa fa-language",
-      "name": "Linia 4",
-      "text": "Cinema - Depozit - Torino - Piaţă - Orizont - IRIC - Carrefour - Iulius Mall - Bazar - Sala Sporturilor - Colegiul „Petru Muşat” - Centru - Bancă - Policlinică - Catedrală - Curcubeu - Mobilă - Obcini Flori - Metro - Corduş - Bloc IRE - Alimentara - Şcoala „Ion Creangă” - Obcini Flori - Mobilă - Curcubeu - Confecţia - Universitate - Policlinică - Bancă - Centru - Colegiul „Petru Muşat” - Sala Sporturilor - Iulius Mall - Bazar - Carrefour - Orizont - Piaţă - Torino - Depozit - Spital Neuro - Cinema."
-    },
-    {
-      "icon": "fa fa-plane",
-      "name": "Linia 5",
-      "text": "Gara Iţcani - Pasarelă - Străduinţa - Betty Ice - Petrom - TPL - Sticlă - Colegiul „Petru Muşat” - Centru - Bancă - Policlinică - Spitalul Judeţean - Metro - Corduş -  Bloc IRE - Alimentara - Şcoala nr.9 - Obcini Flori - Mobilă - Curcubeu - Nordic - Catedrală - Policlinică - Bancă - Centru - Colegiul „Petru Muşat - Sticlă - TPL - Petrom - Selgros - Străduinţa - Pasarelă - Gara Iţcani"
-    },
-    {
-      "icon": "fa fa-pie-chart",
-      "name": "Linia 21",
-      "text": "Burdujeni Sat - Şcoala nr. 6 - Cinema - Orizont - IRIC - Carrefour - Bazar - Sala Sporturilor - Colegiul „Petru Muşat” - Centru - Bancă - Policlinică - Catedrală - Curcubeu - Mobilă - Pasaj CFR Vest - Centură - Rulmentul - Jumbo - Bermas - Gara Suceava Vest - Mobilă - Curcubeu - Nordic - Catedrală - Policlinică - Bancă - Centru - Colegiul „Petru Muşat” - Sala Sporturilor - Bazar - Carrefour - Orizont - Cinema - Şcoala nr. 6 - Burdujeni Sat."
+      "icon": "fa fa-wordpress",
+     "name": "Lorem Ipsum Lorem Ipsum",
+      "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. "
     }
   ],
   "Team": [
@@ -100,23 +95,53 @@
   "Features": [
     {
       "icon": "fa fa-comments-o",
-      "title": "Bilet Normal",
+      "title": "Bilet călătorie",
       "text": "2,50 lei"
     },
     {
       "icon": "fa fa-bullhorn",
-      "title": "Abonament lunal",
+      "title": "Abonament lunar",
       "text": "75 lei"
     },
     {
       "icon": "fa fa-group",
-      "title": "Abonament elev",
-      "text": "Gratuit"
+      "title": "Abonament 15 zile",
+      "text": "46 lei"
     },
     {
       "icon": "fa fa-magic",
-      "title": "Abonament pensionar",
-      "text": "37,50 lei"
+      "title": "Abonament 7 zile",
+      "text": "27 lei"
+    },
+    {
+      "icon": "fa fa-magic",
+      "title": "Abonament 1 zi",
+      "text": "6 lei"
+    },
+    {
+      "icon": "fa fa-magic",
+      "title": "Abonament nenominal",
+      "text": "115 lei"
+    },
+    {
+      "icon": "fa fa-magic",
+      "title": "Abonament studenți",
+      "text": "37.5 lei"
+    },
+    {
+      "icon": "fa fa-magic",
+      "title": "Abonament pensionari",
+      "text": "37.5 lei"
     }
+
+
+  ],
+  "Features2": [
+    {
+      "icon": "fa fa-comments-o",
+      "title": "Bilet călătorie",
+      "text": "2,50 lei"
+    }
+
   ]
 }

@@ -1,22 +1,27 @@
 export const SecondSlideCarousel = (props) => {
   return (
     <header id="header">
-      <div className="intro">
+      <div className="intro2">
         <div className="overlay">
           <div className="container">
             <div className="row">
               <div className="col-md-8 col-md-offset-2 intro-text">
                 <h1>
-                  {props.data ? props.data.title : "Loading"}
+                  TPL Suceava
                   <span></span>
                 </h1>
-                <p>{props.data ? props.data.paragraph : "Loading"}</p>
-                <a
+                <br />
+                <p style={{ fontSize: "23px" }}>
+                  Descoperă transportul public local din Suceava. Găsește rutele
+                  de interes pe platforma noastră, alege-ți destinația și
+                  bucură-te de calătoriile tale.{" "}
+                </p>
+                {/* <a
                   href="#features"
                   className="btn btn-custom btn-lg page-scroll"
                 >
                   Learn More
-                </a>{" "}
+                </a>{" "} */}
               </div>
             </div>
           </div>

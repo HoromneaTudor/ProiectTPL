@@ -30,7 +30,7 @@ export const Header = (props) => {
       autoPlaySpeed={5000}
       slidesToSlide={2}
       customTransition="transform 1000ms ease-in-out"
-      transitionDuration={1000}
+      transitionDuration={1100}
       arrows={true}
       itemClass="react-carousel-item "
     >

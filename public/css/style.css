@@ -1,6 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;600&display=swap");
+
 body,
 html {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Rubik", sans-serif;
   text-rendering: optimizeLegibility !important;
   -webkit-font-smoothing: antialiased !important;
   color: #777;
@@ -11,7 +13,8 @@ html {
 h2,
 h3,
 h4 {
-  font-family: "Raleway", sans-serif;
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
 }
 h2 {
   text-transform: uppercase;
@@ -104,7 +107,7 @@ hr {
   bottom: -1px;
   width: 0;
   height: 2px;
-  background: linear-gradient(to right, #00ac2b 0%, #ffffff 100%);
+  background: linear-gradient(to right, #ffffff 0%, #ffffff 100%);
   content: "";
   transition: width 0.2s;
 }
@@ -209,12 +212,12 @@ a:focus,
   display: table;
   width: 100%;
   padding: 0;
-  background: url(../img/intro-bg.jpg) center center no-repeat;
+  background: url(../img/img5.jpg) center center no-repeat;
   background-color: #e5e5e5;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
+  -webkit-background-size: auto;
+  -moz-background-size: auto;
   background-size: cover;
-  -o-background-size: cover;
+  -o-background-size: auto;
 }
 .intro .overlay {
   background: rgba(0, 0, 0, 0.2);
@@ -240,6 +243,115 @@ a:focus,
   margin: 0 auto;
   margin-bottom: 60px;
 }
+
+.intro1 {
+  display: table;
+  width: 100%;
+  padding: 0;
+  background: url(../img/test.jpg) center center no-repeat;
+  background-color: #e5e5e5;
+  -webkit-background-size: auto;
+  -moz-background-size: auto;
+  background-size: cover;
+  -o-background-size: auto;
+}
+.intro1 .overlay {
+  background: rgba(0, 0, 0, 0.2);
+}
+.intro1 h1 {
+  font-family: "Raleway", sans-serif;
+  color: #fff;
+  font-size: 82px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+.intro1 h1 span {
+  font-weight: 800;
+  color: #5ca9fb;
+}
+.intro1 p {
+  color: #fff;
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 30px;
+  margin: 0 auto;
+  margin-bottom: 60px;
+}
+
+.intro2 {
+  display: table;
+  width: 100%;
+  padding: 0;
+  background: url(../img/img4.jpg) center center no-repeat;
+  background-color: #e5e5e5;
+  -webkit-background-size: auto;
+  -moz-background-size: auto;
+  background-size: cover;
+  -o-background-size: auto;
+}
+.intro2 .overlay {
+  background: rgba(0, 0, 0, 0.2);
+}
+.intro2 h1 {
+  font-family: "Raleway", sans-serif;
+  color: #fff;
+  font-size: 82px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+.intro2 h1 span {
+  font-weight: 800;
+  color: #5ca9fb;
+}
+.intro2 p {
+  color: #fff;
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 30px;
+  margin: 0 auto;
+  margin-bottom: 60px;
+}
+
+.intro3 {
+  display: table;
+  width: 100%;
+  padding: 0;
+  background: url(../img/img6.jpg) center center no-repeat;
+  background-color: #e5e5e5;
+  -webkit-background-size: auto;
+  -moz-background-size: auto;
+  background-size: cover;
+  -o-background-size: auto;
+}
+.intro3 .overlay {
+  background: rgba(0, 0, 0, 0.2);
+}
+.intro3 h1 {
+  font-family: "Raleway", sans-serif;
+  color: #fff;
+  font-size: 82px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+.intro3 h1 span {
+  font-weight: 800;
+  color: #5ca9fb;
+}
+.intro3 p {
+  color: #fff;
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 30px;
+  margin: 0 auto;
+  margin-bottom: 60px;
+}
+
 header .intro-text {
   padding-top: 350px;
   padding-bottom: 200px;
@@ -311,14 +423,14 @@ header .intro-text {
 /* Services Section */
 #services {
   padding: 100px 0;
-  background: linear-gradient(to right, #07b301 0%, #035300 100%);
-  color: #fff;
+  background: linear-gradient(to right, #f6f6f6 0%, #ffffff 100%);
+  color: rgb(12, 12, 12);
 }
 #services .service-desc {
   margin: 10px 10px 20px;
 }
 #services h2 {
-  color: #fff;
+  color: rgb(0, 0, 0);
 }
 #services .section-title h2::after {
   position: absolute;
@@ -343,10 +455,10 @@ header .intro-text {
 #services h3 {
   font-weight: 500;
   padding: 5px 0;
-  color: #fff;
+  color: rgb(0, 0, 0);
 }
 #services p {
-  color: rgba(255, 255, 255, 0.75);
+  color: rgba(0, 0, 0, 0.75);
 }
 #services .service-desc {
   margin-bottom: 40px;
@@ -461,7 +573,7 @@ header .intro-text {
 /* Contact Section */
 #contact {
   padding: 100px 0 60px;
-  background: linear-gradient(to right, #07b301 0%, #035300 100%);
+  background: linear-gradient(to right, #048100 0%, #048100 100%);
   color: rgba(255, 255, 255, 0.75);
 }
 #contact .section-title {
