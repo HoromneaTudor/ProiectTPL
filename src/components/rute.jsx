@@ -3,6 +3,7 @@ export const Rute = (props) => {
     <div id="services" className="text-center">
       <div className="container">
         <div className="section-title">
+          <br></br><br></br>
           <h2>Rute Autobuze</h2>
           <h3>Linia 1  -    CINEMA  BURDUJENI - GEORGE ENESCU  via SPITAL (14,4 km)</h3>
           <p>Cinema  - Orizont - IRIC - Carrefour - Bazar - Sala Sporturilor - Colegiul „Petru Muşat” - Centru - Bancă - Policlinică - Spitalul Județean - Obcini Flori - Mobilă - Curcubeu - Nordic - Catedrală - Policlinică - Bancă - Centru - Colegiul „Petru Muşat” - Sala Sporturilor - Bazar - Carrefour - Orizont  - Cinema</p>
