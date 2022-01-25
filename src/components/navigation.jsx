@@ -95,7 +95,7 @@ export const Navigation = (props) => {
                 sessionStorage.setItem("conectareStare", "Conectare");
               }}
             >
-              <a href="/register" className="page-scroll">
+              <a href="/conectare" className="page-scroll">
                 Conectare
               </a>
             </li>
