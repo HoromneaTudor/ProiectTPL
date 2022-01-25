@@ -13,6 +13,7 @@ import SmoothScroll from "smooth-scroll";
 
 import "./App.css";
 import { Contact } from "./components/contact";
+import { Rute } from "./components/rute";
 
 export const scroll = new SmoothScroll('a[href*="#"]', {
   speed: 1000,
@@ -81,6 +82,20 @@ const App = () => {
 
         <Contact data={landingPageData.Contact} /> */}
         <Contact data={landingPageData.Contact} />
+        <Footer />
+      </div>
+    );
+  } else if (sessionStorage.getItem("conectareStare") == "Rute") {
+    return (
+      <div>
+        <Navigation />
+        {/* <Header data={landingPageData.Header} />
+        <Features data={landingPageData.Features} />
+
+        <Services data={landingPageData.Services} />
+
+        <Contact data={landingPageData.Contact} /> */}
+        <Rute data={landingPageData.Contact} />
         <Footer />
       </div>
     );

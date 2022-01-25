@@ -54,7 +54,7 @@ export const Navigation = (props) => {
             </li>
             <li
               onClick={() => {
-                sessionStorage.setItem("conectareStare", "false");
+                sessionStorage.setItem("conectareStare", "Rute");
               }}
             >
               <a href="/rute" className="page-scroll">
