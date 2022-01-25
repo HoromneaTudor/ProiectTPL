@@ -15,6 +15,7 @@ import "./App.css";
 import { Contact } from "./components/contact";
 import { Rute } from "./components/rute";
 import { Covid } from "./components/COVID-19";
+import { Despre } from "./components/despre";
 
 export const scroll = new SmoothScroll('a[href*="#"]', {
   speed: 1000,
@@ -100,7 +101,21 @@ const App = () => {
         <Footer />
       </div>
     );
-  }  else if (sessionStorage.getItem("conectareStare") == "COVID") {
+  } else if (sessionStorage.getItem("conectareStare") == "Despre") {
+    return (
+      <div>
+        <Navigation />
+        {/* <Header data={landingPageData.Header} />
+        <Features data={landingPageData.Features} />
+
+        <Services data={landingPageData.Services} />
+
+        <Contact data={landingPageData.Contact} /> */}
+        <Despre data={landingPageData.Contact} />
+        <Footer />
+      </div>
+    );
+  } else if (sessionStorage.getItem("conectareStare") == "COVID") {
     return (
       <div>
         <Navigation />
