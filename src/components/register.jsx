@@ -33,6 +33,7 @@ export const Register = (prop) => {
 
           <div id="form_content_container">
             <div id="form_content_inner_container">
+              <br></br>
               <input type="text" id="last_name" placeholder="Last name" />
               <input type="text" id="first_name" placeholder="First name" />
               <input type="email" id="email" placeholder="Email" />
@@ -44,7 +45,7 @@ export const Register = (prop) => {
               />
               <input type="text" id="CNP" placeholder="CNP" />
               <input type="text" id="card_series" placeholder="Card series" />
-
+               <br></br><br></br>
               <div id="button_container">
                 <button
                   onClick={() =>
