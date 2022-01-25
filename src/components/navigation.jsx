@@ -18,9 +18,15 @@ export const Navigation = (props) => {
             <span className="icon-bar"></span>{" "}
             <span className="icon-bar"></span>{" "}
           </button>
-          <a className="navbar-brand page-scroll" href="#page-top">
-            Transport Public Suceava
-          </a>{" "}
+          <li
+            onClick={() => {
+              sessionStorage.setItem("conectareStare", "false");
+            }}
+          >
+            <a className="navbar-brand " href="/acasa">
+              Transport Public Suceava
+            </a>{" "}
+          </li>
         </div>
 
         <div
@@ -33,7 +39,7 @@ export const Navigation = (props) => {
                 sessionStorage.setItem("conectareStare", "false");
               }}
             >
-              <a href="/features" className="page-scroll">
+              <a href="/acasa" className="page-scroll">
                 Acasă
               </a>
             </li>
@@ -42,7 +48,7 @@ export const Navigation = (props) => {
                 sessionStorage.setItem("conectareStare", "false");
               }}
             >
-              <a href="/about" className="page-scroll">
+              <a href="/despre" className="page-scroll">
                 Despre
               </a>
             </li>
@@ -51,7 +57,7 @@ export const Navigation = (props) => {
                 sessionStorage.setItem("conectareStare", "false");
               }}
             >
-              <a href="/services" className="page-scroll">
+              <a href="/rute" className="page-scroll">
                 Rute
               </a>
             </li>
@@ -60,7 +66,7 @@ export const Navigation = (props) => {
                 sessionStorage.setItem("conectareStare", "Galerie");
               }}
             >
-              <a href="/portfolio" className="page-scroll">
+              <a href="/galerie" className="page-scroll">
                 Galerie
               </a>
             </li>
@@ -69,7 +75,7 @@ export const Navigation = (props) => {
                 sessionStorage.setItem("conectareStare", "false");
               }}
             >
-              <a href="/team" className="page-scroll">
+              <a href="/covid-19" className="page-scroll">
                 COVID-19
               </a>
             </li>
