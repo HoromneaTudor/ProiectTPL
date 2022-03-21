@@ -37,8 +37,8 @@ export const Footer = (props) => {
           <div className="col-md-8">
             <div className="row">
               <div className="section-title">
-                <h2>Made by green gang</h2>
-                <p>@copyright green gang 2022</p>
+                <h2>Made by RandomIT</h2>
+                <p>@copyright RandomIT 2022</p>
               </div>
             </div>
           </div>
